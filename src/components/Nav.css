@@ -1,0 +1,41 @@
+:root {
+    --cor-principal: #093fd1;
+    --cor-secundaria: #d3d3d3;
+
+}
+
+aside {
+    /* background-color: #000; */
+}
+
+nav {
+    color: #fff;
+    max-width: 350px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 2px solid var(--cor-secundaria);
+}
+
+a {
+    background-color: var(--cor-principal);
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s ;
+    text-transform: capitalize;
+}
+
+a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
