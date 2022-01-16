@@ -17,11 +17,14 @@ export default function Main() {
                         Idade:
                         <input type="text" name="idade" placeholder="Digite sua idade"></input>
                     </label>
-                    <label>
+                    <select>
                         Sexo:
-                        <input type="checkbox" name="Sexo"></input> Masculino
-                        <input type="checkbox" name="Sexo"></input> Feminino
-                    </label>
+                        <option type="checkbox" name="Sexo">Masculino</option> 
+                        <option type="checkbox" name="Sexo">Feminino</option> 
+                        <option type="checkbox" name="Sexo">Homosexual</option> 
+                        <option type="checkbox" name="Sexo">Transsexual</option> 
+                        <option type="checkbox" name="Sexo">LGBT</option> 
+                    </select>
                     <label>
                         Email:
                         <input type="text" name="email" placeholder="Digite seu email"></input>
