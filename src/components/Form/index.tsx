@@ -1,9 +1,10 @@
+import { Container, Content } from "./styles";
 
 
-export function Main() {
+export function Form() {
     return (
-        <>
-            <div>
+        <Container>
+            <Content>
                 <form>
                     <label>
                         Nome:
@@ -39,10 +40,10 @@ export function Main() {
                     </label>
                     <button>Salvar</button>
                     <button>Editar</button>
-                    <button>Excluir</button>
+                    <button className="excluir">Excluir</button>
                 </form>
-            </div>
-        </>
+            </Content>
+        </ Container>
     );
 }
         

@@ -1,7 +1,9 @@
+import { Container, Content } from "./styles";
+
 export function Nav() {
     return (
-        <aside>
-            <nav>
+        <Container>
+            <Content>
                 <ul>
                     <li><a href="#home">Home</a></li> 
                     <li><a href="#produtos">Produtos</a></li>
@@ -9,7 +11,7 @@ export function Nav() {
                     <li><a href="#quemSomos">Quem somos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-            </nav>
-        </aside>
+            </Content>
+        </Container>
     )
 }

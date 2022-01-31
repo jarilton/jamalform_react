@@ -6,6 +6,8 @@ export function Header() {
             <Container>
                 <Content>
                     <h1>Formulário do Jamal </h1>
+
+                    <button>Adicionar Clientes</button>
                 </Content>
             </Container>
         </>
