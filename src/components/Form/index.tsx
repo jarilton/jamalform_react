@@ -1,7 +1,15 @@
+import { useEffect } from "react";
+import { api } from "../../services/api";
 import { Container, Content } from "./styles";
 
 
 export function Form() {
+
+    useEffect(() => {
+        api.get('form')
+            .then(response => response.data)
+    })
+
     return (
         <Container>
             <Content>
