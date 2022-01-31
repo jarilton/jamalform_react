@@ -1,6 +1,4 @@
-import './Nav.css'
-
-export default function Nav() {
+export function Nav() {
     return (
         <aside>
             <nav>

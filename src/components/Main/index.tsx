@@ -1,9 +1,9 @@
-import styles from './Main.css'
 
-export default function Main() {
+
+export function Main() {
     return (
         <>
-            <div className={styles.div}>
+            <div>
                 <form>
                     <label>
                         Nome:
@@ -19,11 +19,11 @@ export default function Main() {
                     </label>
                     <select>
                         Sexo:
-                        <option type="checkbox" name="Sexo">Masculino</option> 
-                        <option type="checkbox" name="Sexo">Feminino</option> 
-                        <option type="checkbox" name="Sexo">Homosexual</option> 
-                        <option type="checkbox" name="Sexo">Transsexual</option> 
-                        <option type="checkbox" name="Sexo">LGBT</option> 
+                        <option>Masculino</option> 
+                        <option>Feminino</option> 
+                        <option>Homosexual</option> 
+                        <option>Transsexual</option> 
+                        <option>LGBT</option> 
                     </select>
                     <label>
                         Email:
